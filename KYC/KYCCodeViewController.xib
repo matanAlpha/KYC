@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KYCCodeViewController" customModule="KYC" customModuleProvider="target">
             <connections>
-                <outlet property="coteTextField" destination="fa9-mG-YqG" id="Ys4-dN-pVm"/>
+                <outlet property="codeTextField" destination="fa9-mG-YqG" id="UsT-UO-ulp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -24,11 +24,17 @@
                     <rect key="frame" x="8" y="338" width="720" height="30"/>
                     <color key="backgroundColor" red="1" green="0.98314189569999999" blue="0.32925088850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="SEND AGAIN"/>
+                    <connections>
+                        <action selector="sendAgainButtonClicked:" destination="-1" eventType="touchUpInside" id="wGa-Me-bbX"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPW-hj-LHO">
                     <rect key="frame" x="8" y="376" width="720" height="30"/>
                     <color key="backgroundColor" red="1" green="0.98314189569897237" blue="0.32925088845451378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="CHANGE MOBILE PHONE NUMBER"/>
+                    <connections>
+                        <action selector="changePhoneNumberButtonClicked:" destination="-1" eventType="touchUpInside" id="kje-2r-ih2"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fa9-mG-YqG">
                     <rect key="frame" x="8" y="119" width="356" height="30"/>
@@ -39,7 +45,10 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHQ-1Q-CUE">
                     <rect key="frame" x="372" y="119" width="356" height="30"/>
                     <color key="backgroundColor" red="1" green="0.98314189569999999" blue="0.32925088850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="SUBMIT"/>
+                    <connections>
+                        <action selector="submitButtonClicked:" destination="-1" eventType="touchUpInside" id="2Dd-sP-vNr"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CODE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JU3-f0-6vb">
                     <rect key="frame" x="8" y="90" width="46.333333333333336" height="21"/>

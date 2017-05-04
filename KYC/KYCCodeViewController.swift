@@ -10,7 +10,7 @@ import UIKit
 
 class KYCCodeViewController: UIViewController {
 
-    @IBOutlet weak var coteTextField: UITextField!
+    @IBOutlet weak var codeTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,7 +22,18 @@ class KYCCodeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func submitButtonClicked(_ sender: UIButton) {
+        print("Clicked "+codeTextField.text!)
+    }
 
+    @IBAction func sendAgainButtonClicked(_ sender: UIButton) {
+        print("Clicked "+codeTextField.text!)
+    }
+    
+    @IBAction func changePhoneNumberButtonClicked(_ sender: UIButton) {
+        print("Clicked "+codeTextField.text!)
+    }
+    
     /*
     // MARK: - Navigation
 
