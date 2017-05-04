@@ -11,7 +11,9 @@ import UIKit
 class KYCNameViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var phoneNumberTextField: UITextField!
   
+    @IBOutlet weak var country: UITextField!
     @IBOutlet weak var surnameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
