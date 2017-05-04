@@ -18,28 +18,19 @@ class KYCNameViewController: UIViewController ,UITextViewDelegate{
     @IBOutlet weak var surnameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        
-//        let attributedString = NSMutableAttributedString(string: "Want to learn iOS? You should visit the best source of free iOS tutorials!")
-//        attributedString.addAttribute(NSLinkAttributeName, value: "https://www.hackingwithswift.com", range: NSRange(location: 19, length: 55))
-//        
-//        termsAndConditions.attributedText = attributedString
         
         let tosString = "Terms & Conditions"
-        let ppString = "Privacy Policy"
         let message = "I'm over 18 and I accept these Terms & Conditions"
         
         let localizedString = NSMutableAttributedString(string: message)
         
         let tosRange = localizedString.mutableString.range(of: tosString)
-        //let ppRange = localizedString.mutableString.range(of: ppString)
+       
         
-        let tosURL = URL(string: "http://toslink.com")!
-        //let ppURL = URL(string: "http://pplink.com")!
+        let tosURL = URL(string: "http://greenballtrading.com/TermsConditions.html")!
+       
         
         localizedString.addAttribute(NSLinkAttributeName, value: tosURL, range: tosRange)
-        //localizedString.addAttribute(NSLinkAttributeName, value: ppURL, range: ppRange)
         
         termsAndConditions.delegate = self
         termsAndConditions.isSelectable = true
