@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2D4D1CEC1EBB1B86006B1039 /* KYCNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D1CEA1EBB1B86006B1039 /* KYCNameViewController.swift */; };
 		2D4D1CED1EBB1B86006B1039 /* KYCNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D1CEB1EBB1B86006B1039 /* KYCNameViewController.xib */; };
+		2D4D1CF01EBB351D006B1039 /* KYCCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D1CEE1EBB351D006B1039 /* KYCCodeViewController.swift */; };
+		2D4D1CF11EBB351D006B1039 /* KYCCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D1CEF1EBB351D006B1039 /* KYCCodeViewController.xib */; };
 		849801B51EBACC80006DF8AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849801B41EBACC80006DF8AF /* AppDelegate.swift */; };
 		849801B71EBACC80006DF8AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849801B61EBACC80006DF8AF /* ViewController.swift */; };
 		849801BA1EBACC80006DF8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849801B81EBACC80006DF8AF /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		2D4D1CEA1EBB1B86006B1039 /* KYCNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCNameViewController.swift; sourceTree = "<group>"; };
 		2D4D1CEB1EBB1B86006B1039 /* KYCNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCNameViewController.xib; sourceTree = "<group>"; };
+		2D4D1CEE1EBB351D006B1039 /* KYCCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCCodeViewController.swift; sourceTree = "<group>"; };
+		2D4D1CEF1EBB351D006B1039 /* KYCCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCCodeViewController.xib; sourceTree = "<group>"; };
 		849801B11EBACC80006DF8AF /* KYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849801B41EBACC80006DF8AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849801B61EBACC80006DF8AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				849801C01EBACC80006DF8AF /* Info.plist */,
 				2D4D1CEA1EBB1B86006B1039 /* KYCNameViewController.swift */,
 				2D4D1CEB1EBB1B86006B1039 /* KYCNameViewController.xib */,
+				2D4D1CEE1EBB351D006B1039 /* KYCCodeViewController.swift */,
+				2D4D1CEF1EBB351D006B1039 /* KYCCodeViewController.xib */,
 			);
 			path = KYC;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849801BF1EBACC80006DF8AF /* LaunchScreen.storyboard in Resources */,
+				2D4D1CF11EBB351D006B1039 /* KYCCodeViewController.xib in Resources */,
 				2D4D1CED1EBB1B86006B1039 /* KYCNameViewController.xib in Resources */,
 				849801BC1EBACC80006DF8AF /* Assets.xcassets in Resources */,
 				849801BA1EBACC80006DF8AF /* Main.storyboard in Resources */,
@@ -146,6 +153,7 @@
 				2D4D1CEC1EBB1B86006B1039 /* KYCNameViewController.swift in Sources */,
 				849801B71EBACC80006DF8AF /* ViewController.swift in Sources */,
 				849801B51EBACC80006DF8AF /* AppDelegate.swift in Sources */,
+				2D4D1CF01EBB351D006B1039 /* KYCCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

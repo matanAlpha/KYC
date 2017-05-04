@@ -1,5 +1,5 @@
 //
-//  KYCNameViewController.swift
+//  KYCCodeViewController.swift
 //  KYC
 //
 //  Created by Matan Alpha on 04/05/2017.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class KYCNameViewController: UIViewController {
+class KYCCodeViewController: UIViewController {
 
-    @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var phoneNumberTextField: UITextField!
-  
-    @IBOutlet weak var country: UITextField!
-    @IBOutlet weak var surnameTextField: UITextField!
+    @IBOutlet weak var coteTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,11 +22,6 @@ class KYCNameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func nextButtonClicked(_ sender: UIButton) {
-        let newKycCode = KYCCodeViewController()
-        
-        self.navigationController!.pushViewController(newKycCode, animated: true)
-    }
 
     /*
     // MARK: - Navigation
