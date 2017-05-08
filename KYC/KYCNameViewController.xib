@@ -143,13 +143,28 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdI-af-BVl">
+                            <rect key="frame" x="637" y="0.0" width="30" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="sdr-6N-Rif"/>
+                            </constraints>
+                            <state key="normal" title="X">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="zZM-wH-sDA"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="U7C-fF-Cng" firstAttribute="centerY" secondItem="bJO-gb-TyI" secondAttribute="centerY" id="32E-iI-KC1"/>
                         <constraint firstAttribute="height" constant="40" id="45S-YF-CSa"/>
+                        <constraint firstAttribute="trailing" secondItem="rdI-af-BVl" secondAttribute="trailing" id="533-Bf-qf6"/>
+                        <constraint firstAttribute="bottom" secondItem="rdI-af-BVl" secondAttribute="bottom" id="A9f-BT-0lO"/>
                         <constraint firstItem="U7C-fF-Cng" firstAttribute="leading" secondItem="bJO-gb-TyI" secondAttribute="trailing" id="B97-sU-a7L"/>
                         <constraint firstItem="RHD-Ks-mUk" firstAttribute="centerY" secondItem="SPY-y0-fze" secondAttribute="centerY" id="K5c-Bc-nVR"/>
+                        <constraint firstItem="rdI-af-BVl" firstAttribute="top" secondItem="SPY-y0-fze" secondAttribute="top" id="Ksy-G6-aAd"/>
                         <constraint firstAttribute="bottom" secondItem="U7C-fF-Cng" secondAttribute="bottom" id="RRT-FT-Oob"/>
                         <constraint firstItem="RHD-Ks-mUk" firstAttribute="centerX" secondItem="SPY-y0-fze" secondAttribute="centerX" id="W7O-nd-6g3"/>
                         <constraint firstAttribute="bottom" secondItem="bJO-gb-TyI" secondAttribute="bottom" id="baQ-nq-aGv"/>

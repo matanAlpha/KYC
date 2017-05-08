@@ -40,7 +40,14 @@ class KYCNameViewController: UIViewController ,UITextViewDelegate{
         
         // Do any additional setup after loading the view.
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true // for navigation bar hide
+        //UIApplication.sharedApplication.statusBarHidden=true;
+    }
+    
+    @IBAction func closeAction(_ sender: UIButton) {
+        print("Close was clicked")
+    }
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
         UIApplication.shared.open(URL, options: [:])
         return false
