@@ -21,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS5-g3-Ghz">
-                    <rect key="frame" x="8" y="338" width="720" height="30"/>
+                    <rect key="frame" x="8" y="318" width="720" height="40"/>
                     <color key="backgroundColor" red="1" green="0.98314189569999999" blue="0.32925088850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="dma-3r-3BP"/>
+                        <constraint firstAttribute="height" constant="40" id="Jcl-lh-Bjn"/>
                     </constraints>
                     <state key="normal" title="SEND AGAIN"/>
                     <connections>
@@ -32,10 +32,10 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPW-hj-LHO">
-                    <rect key="frame" x="8" y="376" width="720" height="30"/>
+                    <rect key="frame" x="8" y="366" width="720" height="40"/>
                     <color key="backgroundColor" red="1" green="0.98314189569897237" blue="0.32925088845451378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="ho2-at-ZS3"/>
+                        <constraint firstAttribute="height" constant="40" id="baE-xs-JHQ"/>
                     </constraints>
                     <state key="normal" title="CHANGE MOBILE PHONE NUMBER"/>
                     <connections>
@@ -43,15 +43,21 @@
                     </connections>
                 </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fa9-mG-YqG">
-                    <rect key="frame" x="8" y="112" width="355" height="30"/>
+                    <rect key="frame" x="8" y="112" width="355" height="40"/>
                     <color key="backgroundColor" red="0.36470588240000001" green="0.38431372549999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="1VR-8R-Qvw"/>
+                    </constraints>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHQ-1Q-CUE">
-                    <rect key="frame" x="373" y="112" width="355" height="30"/>
+                    <rect key="frame" x="373" y="112" width="355" height="40"/>
                     <color key="backgroundColor" red="1" green="0.98314189569999999" blue="0.32925088850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Sg9-aX-saS"/>
+                    </constraints>
                     <state key="normal" title="SUBMIT"/>
                     <connections>
                         <action selector="submitButtonClicked:" destination="-1" eventType="touchUpInside" id="2Dd-sP-vNr"/>
