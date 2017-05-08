@@ -110,7 +110,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rdr-3m-kwo" userLabel="RightProgress">
                     <rect key="frame" x="335.5" y="40" width="331.5" height="5"/>
-                    <color key="backgroundColor" red="0.29803921570000003" green="0.59607843140000005" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.36470588240000001" green="0.38431372549999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="5" id="Glc-Tm-0OJ"/>
                     </constraints>
