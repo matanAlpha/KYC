@@ -73,7 +73,8 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVa-nT-Wf0">
-                    <rect key="frame" x="620" y="337" width="39" height="30"/>
+                    <rect key="frame" x="341" y="337" width="318" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.41043025049999998" blue="0.40002440049999999" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="NEXT"/>
                     <connections>
                         <action selector="nextButtonClicked:" destination="-1" eventType="touchUpInside" id="map-VC-Od8"/>
@@ -171,6 +172,7 @@
                 <constraint firstItem="w0E-6p-FAp" firstAttribute="top" secondItem="v4G-La-NG7" secondAttribute="bottom" id="McW-to-F2L"/>
                 <constraint firstItem="qkq-Qa-oXb" firstAttribute="leading" secondItem="w0E-6p-FAp" secondAttribute="trailing" constant="15" id="NbU-v3-Czg"/>
                 <constraint firstItem="v4G-La-NG7" firstAttribute="top" secondItem="ELS-jS-yYI" secondAttribute="bottom" constant="15" id="Nta-6M-St5"/>
+                <constraint firstItem="sVa-nT-Wf0" firstAttribute="width" secondItem="nwr-F8-kR1" secondAttribute="width" id="QRq-xL-y7V"/>
                 <constraint firstItem="sVa-nT-Wf0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="D78-aX-2U1" secondAttribute="trailing" constant="20" id="T1b-W1-4UQ"/>
                 <constraint firstAttribute="trailing" secondItem="SPY-y0-fze" secondAttribute="trailing" id="T27-7M-X85"/>
                 <constraint firstItem="D78-aX-2U1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="45" id="UIM-Ef-Nqh"/>
