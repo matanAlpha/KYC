@@ -91,30 +91,38 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OPEN A PRO ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uE-Ux-gg8">
+                            <rect key="frame" x="233" y="5" width="271" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
+                        <constraint firstItem="1uE-Ux-gg8" firstAttribute="centerX" secondItem="kUc-cx-Dvy" secondAttribute="centerX" id="1lf-JK-5Im"/>
                         <constraint firstItem="4ss-1Y-FBS" firstAttribute="leading" secondItem="Rgp-wt-Jkk" secondAttribute="trailing" id="57j-cM-aar"/>
                         <constraint firstAttribute="bottom" secondItem="4ss-1Y-FBS" secondAttribute="bottom" id="CHm-6D-3mU"/>
                         <constraint firstItem="4ss-1Y-FBS" firstAttribute="top" secondItem="kUc-cx-Dvy" secondAttribute="top" id="KWc-67-Y0Q"/>
                         <constraint firstItem="Rgp-wt-Jkk" firstAttribute="leading" secondItem="kUc-cx-Dvy" secondAttribute="leading" id="OV5-5K-Tsb"/>
+                        <constraint firstItem="1uE-Ux-gg8" firstAttribute="centerY" secondItem="kUc-cx-Dvy" secondAttribute="centerY" id="WGo-tT-5z4"/>
                         <constraint firstAttribute="bottom" secondItem="Rgp-wt-Jkk" secondAttribute="bottom" id="pWx-HB-SZe"/>
                         <constraint firstAttribute="height" constant="40" id="qGf-TQ-z2f"/>
                         <constraint firstItem="Rgp-wt-Jkk" firstAttribute="top" secondItem="kUc-cx-Dvy" secondAttribute="top" id="tIr-ag-WwH"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8f-Ol-A3B" userLabel="LeftProgress">
-                    <rect key="frame" x="0.0" y="40" width="366" height="10"/>
+                    <rect key="frame" x="0.0" y="40" width="366" height="5"/>
                     <color key="backgroundColor" red="0.36470588240000001" green="0.38431372549999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="10" id="sMb-Rg-aNW"/>
+                        <constraint firstAttribute="height" constant="5" id="sMb-Rg-aNW"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofc-i3-7ti" userLabel="RightProgress">
-                    <rect key="frame" x="370" y="40" width="366" height="10"/>
+                    <rect key="frame" x="370" y="41" width="366" height="5"/>
                     <color key="backgroundColor" red="0.29803921570000003" green="0.59607843140000005" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="10" id="1Bz-RD-yHp"/>
+                        <constraint firstAttribute="height" constant="5" id="1Bz-RD-yHp"/>
                     </constraints>
                 </view>
             </subviews>
