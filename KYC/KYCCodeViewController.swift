@@ -22,6 +22,9 @@ class KYCCodeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func closeAction(_ sender: UIButton) {
+        print("Close")
+    }
     @IBAction func submitButtonClicked(_ sender: UIButton) {
         print("Clicked "+codeTextField.text!)
     }
